@@ -1,2 +1,3 @@
-# programacao_web_cc_a
+# Programação Web - Turma A 
 Repositório da disciplina de programação Web do curso de Ciência da Computação
+CEUB
