@@ -12,20 +12,20 @@
   <form action="/login" id="login" method="post">
     <div class="divmain">
       <div class="div_boas_vindas">
-        <img class="img_main" src="reuniao.png" alt="animated">
+        <img class="img_main" src="img/reuniao.png" alt="animated">
       </div>
       <div class="div_login">
         <div class="card_login">
           <h1>LOGIN</h1>
           <div class="txt">
             <label for="usuario">Usuário</label>
-            <input id="email" type="text" name="usuario" placeholder="E-mail">
+            <input type="text" name="usuario" placeholder="E-mail" required>
           </div>
           <div class="txt">
             <label for="senha">Senha</label>
-            <input id="senha" type="password" name="senha" placeholder="Sua senha">
+            <input type="password" name="senha" placeholder="Sua senha" required>
           </div>
-          <button id="entrar" class="btn_entrar">Entrar</button>
+          <button class="btn_entrar">Entrar</button>
           <nav class="navbar">
             <a href="">Esqueci minha senha</a>
             <a href="cadastrar.html">Não possuo conta</a>

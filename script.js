@@ -8,4 +8,10 @@ function submeter() {
     let elementosenha = documento.getElementById("senha").value;
     console.log(elementoemail);
     console.log(elementosenha);
+
+    console.log(validaemail(elementoemail));
+}
+
+function validaemail(email){
+    return /^[\w]+@[\w]+.[a-zA-Z]+$/.test(email)
 }
